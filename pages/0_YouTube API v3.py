@@ -70,13 +70,12 @@ def animation_demo() -> None:
     st.button("Re-run")
 
 
-st.set_page_config(page_title="Animation Demo", page_icon="📹")
-st.markdown("# Animation Demo")
-st.sidebar.header("Animation Demo")
+st.set_page_config(page_title="Connecting to the YouTube Data API", page_icon="📹")
+st.markdown("# Connecting to the YouTube Data APi")
+st.sidebar.header("Youtube Data API")
 st.write(
-    """This app shows how you can use Streamlit to build cool animations.
-It displays an animated fractal based on the the Julia Set. Use the slider
-to tune different parameters."""
+    """This section shows how to connect to the YouTube Data API v3 
+    and how to make a basic API call."""
 )
 
 animation_demo()
